@@ -1,0 +1,19 @@
+.main {
+  display: flex;
+  flex-direction: row;
+  background-image: url(https://sun4.dataix-kz-akkol.userapi.com/TEKiXypowbQByvDJLDMx0PTPRpu4iRvXA7cUVg/2gQZ7-2iomE.jpg);
+    padding: 0px;
+    margin: 0px;
+    background-repeat: no-repeat;
+    background-size: 1400px 2500px;
+    overflow: hidden;
+}
+
+
+.left {
+  width: 25%;
+}
+
+.center {
+  width: 50%;
+}
