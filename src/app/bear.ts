@@ -6,6 +6,7 @@ export interface Bear {
     title: string;
     description: string;    
     likes: number;
+    price: number;
     comments: string[];   
     category: Category;
 }

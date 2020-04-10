@@ -48,6 +48,9 @@ export class BearDetailsComponent implements OnInit {
   back(): void {
     this.location.back();
   }
+  purchase():void{
+    mockUser.user_bears.push(this.selectedItem);
+  }
 
   save() {
     alert('saved');

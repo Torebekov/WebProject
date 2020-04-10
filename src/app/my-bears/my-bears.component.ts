@@ -10,7 +10,7 @@ import {List} from '../list';
   styleUrls: ['./my-bears.component.css']
 })
 export class MyBearsComponent implements OnInit {
-  savedBears = List;
+  savedBears = mockUser.user_bears;
   title = new FormControl('');
   description = new FormControl('');
 
