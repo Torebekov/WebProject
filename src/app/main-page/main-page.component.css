@@ -19,6 +19,8 @@
 
 .center {
   position: relative;
+  display: flex;
+  flex-direction:row;
   bottom: -300px;
   left: -350px;
   width: 100%;
